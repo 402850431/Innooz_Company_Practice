@@ -94,19 +94,14 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             // Signed in successfully, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
             if (acct != null) {
-                Toast.makeText(this, "User name: " + acct.getDisplayName(), Toast.LENGTH_SHORT).show();
-//                Log.i(" ", "用戶名是:" + acct.getDisplayName());
-//                Log.i(" ", "用戶email是:" + acct.getEmail());
-//                Log.i(" ", "用戶頭像是:" + acct.getPhotoUrl());
-//                Log.i(" ", "用戶Id是:" + acct.getId());
-//                Log.i(" ", "用戶IdToken是:" + acct.getIdToken());
-//                Toast.makeText(this, "用戶名是:" + acct.getDisplayName()
-//                        +"\n用戶email是:" + acct.getEmail()
-//                        +"\n用戶頭像是:" + acct.getPhotoUrl()
-//                        +"\n用戶Id是: " + acct.getId()
-//                        +"\n用戶IdToken是: " + acct.getIdToken()
-//                        , Toast.LENGTH_SHORT).show();
-
+                Toast.makeText(this, "用戶名是:" + acct.getDisplayName()
+                        +"\n用戶email是:" + acct.getEmail()
+                        +"\n用戶頭像是:" + acct.getPhotoUrl()
+                        +"\n用戶Id是: " + acct.getId()
+                        +"\n用戶IdToken是: " + acct.getIdToken()
+                        , Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                startActivity(intent);
             } else {
                 // Signed out, show unauthenticated UI.
                 Log.i(" ", "擷取資料失敗" + result.getStatus());
