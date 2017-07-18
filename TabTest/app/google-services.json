@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "563981472161",
+    "project_id": "innoorz-cherylgao-training"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563981472161:android:337638ba34c4ac7b",
+        "android_client_info": {
+          "package_name": "com.example.innooz.tabtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563981472161-oqnkq492l8e6df0b4d5dfgftggn5i2k5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "563981472161-6ieuuv20nqi8f0d48038v7dq2273tt6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.innooz.tabtest",
+            "certificate_hash": "6f3aa13ce2a903b3a15d51a0ebeb85b37f72e1b0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2rEWUA_g0AVv_iWvJI0P3NV8Qm3hen4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
